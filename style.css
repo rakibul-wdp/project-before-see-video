@@ -1,0 +1,263 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #FFFFFF;
+}
+
+/* First style start here */
+
+.frist {
+    position: relative;
+}
+
+.frist-left {
+    position: relative;
+}
+
+.top-left {
+    
+}
+
+.welcome-heading {
+    position: absolute;
+    top: 46px;
+    left: 107px;
+    font-size: 50px;
+    font-family: 'Roboto', sans-serif;
+}
+
+span.big {
+    display: block;
+    margin-bottom: 25px;
+}
+
+.change-color {
+    color: #FFA500;
+    margin: 15px 18px 5px 0px;
+}
+
+h2.second-heading {
+    position: absolute;
+    top: 269px;
+    left: 107px;
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: bold;
+}
+
+p.paragraph-1 {
+    position: absolute;
+    top: 323px;
+    left: 107px;
+    width: 36%;
+    font-family: 'Roboto', sans-serif;
+    color: #625d5d;
+    text-align: justify;
+    line-height: 24px;
+}
+
+button.button1 {
+    position: absolute;
+    top: 430px;
+    left: 107px;
+    background-color: tomato;
+    padding: 10px 30px;
+    border: 1px solid tomato;
+    border-radius: 5px;
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    letter-spacing: 0.7px;
+    cursor: pointer;
+}
+
+.first-right {
+    position: absolute;
+    top: 0px;
+    right: 100px;
+}
+
+.first-image-me {
+    width: 608px;
+    height: 603px;
+}
+
+/* First style end here */
+
+/* Middle style start here*/
+
+img.my-second-image {
+    display: inline;
+    width: 608px;
+    height: 584px;
+    margin-top: 145px;
+    margin-left: 107px;
+}
+
+h1.drem-big {
+    margin-top: -538px;
+    margin-left: 811px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 40px;
+}
+
+h2.be-we-dev {
+    margin-top: 40px;
+    margin-left: 811px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+}
+
+p.middle-right-para {
+    margin-top: 25px;
+    margin-left: 811px;
+    width: 35%;
+    font-family: 'Roboto', sans-serif;
+    text-align: justify;
+    line-height: 24px;
+    letter-spacing: 0.02px;
+    color: #767171;
+}
+
+button.button2 {
+    margin-top: 22px;
+    margin-left: 811px;
+    position: absolute;
+    background-color: tomato;
+    padding: 12px 30px;
+    border: 1px solid tomato;
+    border-radius: 5px;
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    letter-spacing: 0.7px;
+    cursor: pointer;
+}
+
+img.middle-right-img {
+    margin-top: -70px;
+    margin-left: 1402px;
+}
+
+/* Middle style end here*/
+
+/* Last style start here*/
+
+.last {
+    background-image: url(./images/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: left;
+}
+
+h1.experience {
+    margin-top: 190px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 40px;
+}
+
+.card1 {
+    position: relative;
+    box-shadow: -7px 14px 16px 17px rgb(0 0 0 / 20%);
+    width: 41%;
+    height: 380px;
+    border-left: 7px solid tomato;
+    margin-top: 29px;
+    margin-left: 75px;
+    transition: 0.3s;
+}
+
+.card1:hover {
+    box-shadow: 9px 7px 16px 17px rgb(0 0 0 / 20%);
+}
+
+h1.card1-h1 {
+    position: absolute;
+    margin-top: 35px;
+    margin-left: 31px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 40px;
+}
+
+.card1-h2 {
+    position: absolute;
+    margin-top: 125px;
+    margin-left: 31px;
+    color: #ff7359;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 19.72px;
+}
+
+
+p.card1-para {
+    position: absolute;
+    width: 88%;
+    margin-top: 174px;
+    margin-left: 31px;
+    margin-right: 39px;
+    font-family: 'Roboto', sans-serif;
+    color: #746e6e;
+    text-align: justify;
+    line-height: 24px;
+}
+
+.card2 {
+    position: relative;
+    box-shadow: -7px 14px 16px 17px rgb(0 0 0 / 20%);
+    width: 41%;
+    height: 380px;
+    border-left: 7px solid rgb(19, 135, 218);
+    margin-top: -380px;
+    margin-left: 75px;
+    margin-right: 95px;
+    transition: 0.3s;
+    float: right;
+}
+
+.card2:hover {
+    box-shadow: 9px 7px 16px 17px rgb(0 0 0 / 20%);
+}
+
+h1.card2-h1 {
+    position: absolute;
+    margin-top: 35px;
+    margin-left: 31px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 40px;
+}
+
+.card2-h2 {
+        position: absolute;
+        margin-top: 125px;
+        margin-left: 31px;
+        color: #ff7359;
+        font-family: 'Ubuntu', sans-serif;
+        font-size: 19.72px;
+}
+
+p.card2-para {
+    position: absolute;
+    width: 88%;
+    margin-top: 174px;
+    margin-left: 31px;
+    margin-right: 39px;
+    font-family: 'Roboto', sans-serif;
+    color: #746e6e;
+    text-align: justify;
+    line-height: 24px;
+}
+
+/* Last style end here*/
+
+/* Footer style start here */
+footer.footer {
+    text-align: center;
+    margin-top: 163px;
+    margin-bottom: 15px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 17px;
+    color: #726f6f;
+    letter-spacing: 0.02px;
+}
+/* Footer style end here */
